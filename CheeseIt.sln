@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{135DF3DE-7355-4AE7-B378-F2D4B3DFCE00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheeseIt.Api", "src\CheeseIt.Api\CheeseIt.Api.csproj", "{632467CA-F079-40AF-8447-2D88E4B28925}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3F4D9CEE-5452-473A-9DDF-347E1638810B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheeseIt.Tests", "tests\CheeseIt.Tests\CheeseIt.Tests.csproj", "{579DF568-C856-4478-8342-49FE6622A837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{632467CA-F079-40AF-8447-2D88E4B28925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632467CA-F079-40AF-8447-2D88E4B28925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632467CA-F079-40AF-8447-2D88E4B28925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632467CA-F079-40AF-8447-2D88E4B28925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579DF568-C856-4478-8342-49FE6622A837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579DF568-C856-4478-8342-49FE6622A837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579DF568-C856-4478-8342-49FE6622A837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579DF568-C856-4478-8342-49FE6622A837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{632467CA-F079-40AF-8447-2D88E4B28925} = {135DF3DE-7355-4AE7-B378-F2D4B3DFCE00}
+		{579DF568-C856-4478-8342-49FE6622A837} = {3F4D9CEE-5452-473A-9DDF-347E1638810B}
+	EndGlobalSection
+EndGlobal
